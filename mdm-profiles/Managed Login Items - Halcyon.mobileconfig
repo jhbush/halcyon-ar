@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDisplayName</key>
+			<string>Managed Login Items</string>
+			<key>PayloadIdentifier</key>
+			<string>C095C3A0-642C-4C13-9178-23F36F87780E</string>
+			<key>PayloadOrganization</key>
+			<string>JAMF Software</string>
+			<key>PayloadType</key>
+			<string>com.apple.servicemanagement</string>
+			<key>PayloadUUID</key>
+			<string>C095C3A0-642C-4C13-9178-23F36F87780E</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Rules</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>Halcyon</string>
+					<key>RuleType</key>
+					<string>TeamIdentifier</string>
+					<key>RuleValue</key>
+					<string>X9V48Z6467</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Halcyon Managed Login Items</string>
+	<key>PayloadDisplayName</key>
+	<string>Managed Login Items - Halcyon</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>6FD508AE-DB32-44BA-85D5-F814157A8FA4</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>6FD508AE-DB32-44BA-85D5-F814157A8FA4</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AllowUserOverrides</key>
+			<true/>
+			<key>AllowedSystemExtensionTypes</key>
+			<dict>
+				<key>X9V48Z6467</key>
+				<array>
+					<string>EndpointSecurityExtension</string>
+					<string>NetworkExtension</string>
+				</array>
+			</dict>
+			<key>AllowedSystemExtensions</key>
+			<dict>
+				<key>X9V48Z6467</key>
+				<array>
+					<string>ai.halcyon.agent.halcyonard</string>
+				</array>
+			</dict>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>SYSTEM_EXTENSIONS</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>FBE08054-5635-40A0-9571-146B9BE6A0A6</string>
+			<key>PayloadOrganization</key>
+			<string>JAMF Software</string>
+			<key>PayloadType</key>
+			<string>com.apple.system-extension-policy</string>
+			<key>PayloadUUID</key>
+			<string>FBE08054-5635-40A0-9571-146B9BE6A0A6</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string></string>
+	<key>PayloadDisplayName</key>
+	<string>Halcyon - System Extensions</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>671D6341-E468-443E-B663-21F2054EB480</string>
+	<key>PayloadOrganization</key>
+	<string>Company Name</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>671D6341-E468-443E-B663-21F2054EB480</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
