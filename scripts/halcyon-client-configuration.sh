@@ -42,6 +42,8 @@ log "Writing Halcyon token file."
 
 umask 077
 
+# Write privately to a temporary file, then replace the destination so a
+# policy interruption cannot leave a partially written token file in place.
 cat > "$TMP_FILE" <<EOF
 install_token = "$TOKEN"
 EOF

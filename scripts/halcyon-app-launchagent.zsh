@@ -54,8 +54,8 @@ if [[ ! -d "$APP_PATH" ]]; then
 	exit 1
 fi
 
-# Remove any existing loaded version of the LaunchAgent before
-# creating and loading the updated version.
+# A first install has nothing to boot out, so tolerate those expected errors.
+# Removing an existing instance first avoids duplicate or stale launchd jobs.
 launchctl bootout "gui/$USER_UID/$LABEL" 2>/dev/null
 launchctl bootout "gui/$USER_UID" "$PLIST_PATH" 2>/dev/null
 
